@@ -65,3 +65,5 @@ Il developper son propre sytheme de gestion de version, il a pris le meilleur de
   - rebase squash : permet de fusionner plusieurs commits en un seul
   - rebase fixup : permet de fusionner plusieurs commits en un seul en supprimant les messages des commits
 - Cherry-pick : permet de récupérer un commit d'une branche dans une autre branche plus d'info [ici](https://www.atlassian.com/git/tutorials/cherry-pick)
+- `fletch` : récuepère les commits d'une branche distante sans les fusionner dans la branche courante.Plus d'info 
+  
