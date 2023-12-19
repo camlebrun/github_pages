@@ -51,3 +51,17 @@ Il developper son propre sytheme de gestion de version, il a pris le meilleur de
 - `git rm <nom du fichier>` : supprime un fichier
 - `git mv <nom du fichier> <nouveau nom du fichier>` : renomme un fichier
 - `git stash` : sauvegarde les changements non commités
+
+## Les bonnes pratiques
+- `main` ou `master` : branche principale du projet qui est protégée
+- `dev` : branche de développement pour developper les fonctionnalités (user story)
+  - Utilisation des conventions de commites : https://www.conventionalcommits.org/en/v1.0.0/
+    - `feature/<nom de la fonctionnalité>` : branche de fonctionnalité pour développer une fonctionnalité
+- `release` : branche de préparation de la release
+
+### Les commandes avancées
+- Rebase : permet de fusionner une branche dans une autre branche plus d'info [ici](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
+  - rebase interactif : permet de modifier l'historique des commits
+  - rebase squash : permet de fusionner plusieurs commits en un seul
+  - rebase fixup : permet de fusionner plusieurs commits en un seul en supprimant les messages des commits
+- Cherry-pick : permet de récupérer un commit d'une branche dans une autre branche plus d'info [ici](https://www.atlassian.com/git/tutorials/cherry-pick)
